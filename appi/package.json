@@ -1,0 +1,20 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "servidor con mariadb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rubiel R",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
